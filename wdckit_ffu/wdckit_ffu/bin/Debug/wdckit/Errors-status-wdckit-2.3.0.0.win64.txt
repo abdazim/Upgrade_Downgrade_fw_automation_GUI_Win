@@ -1,0 +1,70 @@
+> errors --redirect status.txt
+wdckit Version 2.2.0.0
+Copyright (C) 2019-2020 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+12/26/2020 23:16:33
+
+Status  Reason                                                       
+------  -----------------------------------------------------------  
+0       Success                                                    
+-1      Failure (device reported an error)                         
+-5      Unable to open file                                        
+-8      Admin privilege required                                   
+-10     Unable to open device                                      
+-12     Device type not supported                                  
+-14     Invalid device                                             
+-16     Not allowed in boot device                                 
+-20     No devices found                                           
+-21     Operation is not allowed due to OS and/or driver           
+-23     Firmware is current                                        
+-24     Unable to open firmware image file                         
+-25     Firmware update available                                  
+-29     Unable to write in the output file                         
+-42     Invalid image file type                                    
+-53     Operation is not supported                                 
+-57     Device is not an NVMe device                               
+-66     Invalid Input, Command Terminated                          
+-67     User cancelled the operation, Command Terminated           
+-86     Invalid file                                               
+-115    48-bit Commands Not Supported                              
+-117    Cannot set MAX LBA greater than current MAX LBA            
+-124    Security Not Supported                                     
+-125    Security Frozen                                            
+-126    Security Locked                                            
+-128    Sanitize Not Supported by the device                       
+-129    Operation is not supported by the device                   
+-133    No Log Pages Found                                         
+-134    AHCI controller not found                                  
+-143    Invalid Input Parameter                                    
+-190    TCG Protocol Not Supported                                 
+-192    TCG OPAL Not Activated                                     
+-210    Mirror command is not applicable                           
+-211    Device must be a NVMe controller node (/dev/nvmeX)         
+-212    Device must be a NVMe namespace node (/dev/nvmeXnY)        
+-310    Security already Enabled                                   
+-311    Security Not Enabled                                       
+-312    Device is not locked                                       
+-433    Host Protected Area Not Supported                          
+-436    Not Authorized for the requested Operation                 
+-437    Obsoleted SID used for the requested Operation             
+-438    Requested SP is BUSY                                       
+-439    Requested SP is not enabled                                
+-440    Requested SP is in frozen state                            
+-441    Session creation failed                                    
+-442    Uniqueness conflict error                                  
+-443    Insufficient space in SP                                   
+-444    Insufficient Rows in SP                                    
+-445    Invalid parameter passed                                   
+-446    Tper mal-function is detected                              
+-447    Transaction error encountered                              
+-448    Response size is more than the buffer provided             
+-449    Authority is locked out to perform the operation           
+-500    Drive not ready: format in progress                        
+-501    Drive not ready: foreground self test in progress          
+-502    Drive not ready: sanitize in progress                      
+-503    Media compatibility check is not supported in this scenario
+-600    This operation is not allowed on a RAID device             
+-700    The device header data is unknown/invalid                  
+-800    PSID is not activated, PSID revert is not required.        
+-999    The device does not support Cryptographic Erase            
+

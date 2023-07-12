@@ -1,0 +1,15 @@
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit_ffu.exe.config
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit_ffu.exe
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit_ffu.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\Microsoft.Dynamic.xml
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\Microsoft.Scripting.xml
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\Microsoft.Scripting.Metadata.xml
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\obj\Debug\wdckit_ffu.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\obj\Debug\wdckit_ffu.Form1.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\obj\Debug\wdckit_ffu.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\obj\Debug\wdckit_ffu.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\obj\Debug\wdckit_ffu.exe
+C:\Users\Administrator\documents\visual studio 2015\Projects\wdckit_ffu\wdckit_ffu\obj\Debug\wdckit_ffu.pdb

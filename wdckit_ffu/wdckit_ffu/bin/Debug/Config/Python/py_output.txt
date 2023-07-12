@@ -1,0 +1,38 @@
+
+
+DEBUG - Current to Base_FW: 
+\\10.0.56.14\Images\PlatformTesting\FW_Versions\Vulcan\Firmware\Releases\Official_Builds\Debug_Version\AO043VCN\vulcan_BOT\CFGenc.fluf
+The Result: 
+O043VCN\vulcan_BOT\CFGenc.fluf  Stored. Activation is still required.
+Firmware Activated Failed.(Exit Code: -1)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG - Base_FW to Base_FW: 
+\\10.0.56.14\Images\PlatformTesting\FW_Versions\Vulcan\Firmware\Releases\Official_Builds\Debug_Version\AO043VCN\vulcan_BOT\CFGenc.fluf
+The Result: 
+O043VCN\vulcan_BOT\CFGenc.fluf  Stored. Activation is still required.
+Firmware Activated Failed.(Exit Code: -1)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Debug- Base_FW to FW1: 
+\\10.0.56.14\Images\PlatformTesting\FW_Versions\Vulcan\Firmware\Releases\Official_Builds\Debug_Version\AO045VCN\vulcan_BOT\CFGenc.fluf
+The Result: 
+O045VCN\vulcan_BOT\CFGenc.fluf  Stored. Activation is still required.
+Firmware Activated Failed.(Exit Code: -1)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Debug- FW1 to Base_FW: 
+\\10.0.56.14\Images\PlatformTesting\FW_Versions\Vulcan\Firmware\Releases\Official_Builds\Debug_Version\AO043VCN\vulcan_BOT\CFGenc.fluf
+The Result: 
+O043VCN\vulcan_BOT\CFGenc.fluf  Stored. Activation is still required.
+Firmware Activated Failed.(Exit Code: -1)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Debug- Base_FW to FW2: 
+\\10.0.56.14\Images\PlatformTesting\FW_Versions\Vulcan\Firmware\Releases\Official_Builds\Debug_Version\AO040VCN\vulcan_BOT\CFGenc.fluf
+The Result: 
+O040VCN\vulcan_BOT\CFGenc.fluf  Stored. Activation is still required.
+Firmware Activated Failed.(Exit Code: -1)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Debug- FW2 TO Base_FW: 
+\\10.0.56.14\Images\PlatformTesting\FW_Versions\Vulcan\Firmware\Releases\Official_Builds\Debug_Version\AO043VCN\vulcan_BOT\CFGenc.fluf
+The Result: 
+O043VCN\vulcan_BOT\CFGenc.fluf  Stored. Activation is still required.
+Firmware Activated Failed.(Exit Code: -1)
+------------------------------------------------------------------------------------------------------------------------------------------------------

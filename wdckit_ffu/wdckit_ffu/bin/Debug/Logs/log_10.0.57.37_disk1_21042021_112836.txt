@@ -1,0 +1,812 @@
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>*** Section 1 & 2 Start *** 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>*** Section 1 Start *** 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>***FFU Between Base to NEW FW 1 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Current to Base: 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:28:51
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 98%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:28:54
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to Base
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:28:59
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 93%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:02
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to FW 1: 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:09
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 99%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:12
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------FW 1 to Base: 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:17
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 95%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:20
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base-FW2 - FW2-Base ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>*** Section 1 Done ***
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------FW1-FW2 - FW2-FW1 ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>*** Section 2 Start ***
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>***>***FFU Between Base to NEW FW 1 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to GO(FW1): 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_GO\CFGenc_21112000.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:25
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 99%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                                   Update Status                          
+------  -------------  ------------------------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_GO\CFGenc_21112000.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:28
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  Activation Status                              
+------  -------------  ---------------------------------------------  
+disk1   19320E640004   Activation was successful. If needed, reboot.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------GO(FW1) to Base: 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:33
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 92%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:36
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to HP(FW1):  
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_HP\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:40
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                          Update Status                          
+------  -------------  ---------------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_HP\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:43
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------HP(FW1) to Base: 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:47
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:50
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to LE(FW1): 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_LE\CFGenc_21130001.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:54
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                                   Update Status                          
+------  -------------  ------------------------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_LE\CFGenc_21130001.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:29:57
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  Activation Status                              
+------  -------------  ---------------------------------------------  
+disk1   19320E640004   Activation was successful. If needed, reboot.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------LE(FW1) to Base: 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:01
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 98%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:04
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to DELL(FW1): 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_DE\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:09
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 99%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                          Update Status                          
+------  -------------  ---------------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\EKey_DE\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:12
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------DELL(FW1) to Base: 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:17
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 99%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:20
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>*** Section 2 Done ***
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>exit
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------BASE-MSFT(FW1) - MSFT(FW1)-BASE ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>*** Section 3 Start ***
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>***FFU Between Base to NEW FW 2
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------BASE-GO(FW2) - GO(FW2)-BASE ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------BASE-HP(FW2) - HP(FW2)-BASE ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------BASE-LE(FW2) - LE(FW2)-BASE ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>exit
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------BASE-MSFT(FW2) - MSFT(FW2)-BASE ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------BASE-DELL(FW2) - DELL(FW2)-BASE ,The Result: Error 
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>*** Section 3 Done ***
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>FFU Completed Successfully.
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>exit
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Current to Base:  loop
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:25
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:27
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>- loop Number:  0
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to FW1:  Loop: 0
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:32
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:34
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------FW 1 to Base:  Loop: 0
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:39
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 97%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:42
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>- loop Number:  1
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to FW1:  Loop: 1
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:47
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 97%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:50
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------FW 1 to Base:  Loop: 1
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:54
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 95%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:30:58
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>- loop Number:  2
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to FW1:  Loop: 2
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:02
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 96%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:06
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------FW 1 to Base:  Loop: 2
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:10
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 97%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:14
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>- loop Number:  3
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to FW1:  Loop: 3
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:18
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:21
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------FW 1 to Base:  Loop: 3
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:25
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:27
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>- loop Number:  4
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------Base to FW1:  Loop: 4
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:32
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 96%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO078C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:35
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>------------FW 1 to Base:  Loop: 4
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -f \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:40
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 99%   Progress: 100%   
+Success: Update completed on: 19320E640004
+Device  Serial Number  FW File                                                                                                  Update Status                          
+------  -------------  -------------------------------------------------------------------------------------------------------  -------------------------------------  
+disk1   19320E640004   \\10.0.56.14\Images\PlatformTesting\FW_Versions\calypso_perf\AO091C2P\_out\calypso_perf\BOT\CFGenc.fluf  Stored. Activation is still required.
+
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>wdckit.exe update disk1 -a -s 1
+wdckit Version 2.4.0.0
+Copyright (C) 2019-2021 Western Digital Corporation, Inc.
+Western Digital ATA/SCSI/NVMe command line utility.
+04/21/2021 11:31:43
+
+Update on 1 device(s) started...
+Progress: 0%   Progress: 0%   Progress: 0%   
+Error: Update failed on: 19320E640004
+Device  Serial Number  Activation Status                   
+------  -------------  ----------------------------------  
+disk1   19320E640004   Failure (device reported an error)
+
+Command Execution Failed.
+(Exit Code: -1)
+
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\wdckit_ffu\wdckit_ffu\bin\Debug\wdckit>exit
